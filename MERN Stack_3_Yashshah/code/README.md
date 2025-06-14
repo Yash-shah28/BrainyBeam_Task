@@ -1,12 +1,64 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Formik Forms Web App
 
-Currently, two official plugins are available:
+This is a **React.js web application** that demonstrates reusable form components using **Formik** and **Yup** for form state management and validation. The app includes:  
+✅ A **Signup Form** with email, password, username, and age fields  
+✅ A **Login Form** with email and password  
+✅ A custom **InputField** component for clean, consistent inputs  
+✅ Simple **404 Not Found** page  
+✅ Navigation using **React Router**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Formik** for form handling and submission  
+- **Yup** for schema-based validation  
+- **Reusable InputField component** that displays labels, handles formik’s field binding, and shows validation errors  
+- **Client-side validation** for email, password strength, username, and age  
+- **React Router** for page navigation (Login, Signup, 404)  
+- **Simple and clean CSS styling**
+
+---
+
+
+## 🔑 Validation Rules
+
+### Signup Form
+| Field | Validation |
+|--------|-------------|
+| Email | Required, valid email format |
+| Password | Required, min 6 chars, 1 uppercase, 1 lowercase, 1 number, 1 special character |
+| Username | Required, min 3 chars, letters/numbers/underscores only |
+| Age | Required, number between 18 and 99 |
+
+### Login Form
+| Field | Validation |
+|--------|-------------|
+| Email | Required, valid email format |
+| Password | Required |
+
+---
+
+
+## ⚙ How to Run
+
+1️⃣ Clone the repository  
+```bash
+git clone 
+cd <project-folder>
+```
+
+2️⃣ Install dependencies  
+```bash
+npm install
+```
+
+3️⃣ Start the app  
+```bash
+npm run dev
+```
+
+🌐 Visit: http://localhost:3000
+
+---
