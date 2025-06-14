@@ -45,8 +45,8 @@ This is a **React.js web application** that demonstrates reusable form component
 
 1️⃣ Clone the repository  
 ```bash
-git clone 
-cd <project-folder>
+git clone https://github.com/Yash-shah28/BrainyBeam_Task.git
+cd MERN Stack_3_Yashshah
 ```
 
 2️⃣ Install dependencies  
