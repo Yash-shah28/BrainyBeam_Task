@@ -29,16 +29,28 @@ NODE_ENV=development
 CLIENT_URL= http://localhost:5173
 ```
 
-### Run this app locally
 
-```shell
-npm run build
+## ⚙ How to Run
+
+1️⃣ Clone the repository  
+```bash
+git clone https://github.com/Yash-shah28/BrainyBeam_Task.git
+cd MERN Stack_2_Yashshah
 ```
 
-### Start the app
-
-```shell
-npm run start
+2️⃣ Install dependencies for the backend server
+```bash
+npm install
+npm run dev
 ```
 
-### I'll see you in the next one! 🚀
+3️⃣ Install dependencies for the Frontend server  
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+👉  Run both the backend and frontend server simultaneously in two different terminals.
+
+
